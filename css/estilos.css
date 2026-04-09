@@ -64,7 +64,22 @@ footer {
     width: auto;
 }
 
-.footer-redes img:hover {
-    transform: scale(1.2);
+.texto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    
+    text-align: center;
+    padding: 10px;
+    
+    opacity: 0;
     transition: 0.3s;
+}
+
+.item:hover .texto {
+    opacity: 1;
 }
